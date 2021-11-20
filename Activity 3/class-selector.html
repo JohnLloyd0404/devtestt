@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector</title>
+    <style>
+        .highlight{
+            background-color: green;
+        }
+        p.highlight{
+            font-style: italic;
+        }
+        .highlight.mainPoint{
+            color: red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="highlight">Element with Class Selector</h1>
+    <p>The .class selector selects elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the name of the class. You can also specify that only specific HTML elements should be affected by a class.</p>
+    <p class="highlight">class selector is used to select all elements which belong to a particular class attribute. In order to select the elements with a particular class, use the period (.) character specifying the class name ie., it will match the HTML element based on the contents of their class attribute.</p>
+    <div class="mainPoint highlight">This is the main point of the article</div>
+</body>
+</html>
